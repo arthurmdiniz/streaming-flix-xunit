@@ -23,7 +23,7 @@ public class PlanoStreamingService
     {
         if (mesesContratados is >= 6 and <= 11)
         {
-            return (double) ((valorBase / 100) * 90); // 10% de desconto
+            return (double)((valorBase / 100) * 92); // 8% de desconto
         }
         else if (mesesContratados >= 12)
         {
@@ -45,6 +45,6 @@ public class PlanoStreamingService
         return idade >= 18 || controleParentalAtivo;
     }
 
+   
 }
-
 
